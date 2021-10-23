@@ -1,4 +1,3 @@
-
 def fin(list,colvo):
     list2 = []
     list3 = []
@@ -16,5 +15,5 @@ colvo= int(input())
 list = []
 for i in range(0,colvo,1):
     print("Введите ", i ," элемент:")
-    list.append(int(input())) 
+    list.append(int(input()))
 print(fin(list,colvo))
